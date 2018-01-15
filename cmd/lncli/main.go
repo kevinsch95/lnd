@@ -13,8 +13,8 @@ import (
 
 	"gopkg.in/macaroon.v1"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/kevinsch95/lnd/lnrpc"
+	"github.com/kevinsch95/lnd/macaroons"
 	"github.com/roasbeef/btcutil"
 	"github.com/urfave/cli"
 
