@@ -13,14 +13,14 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/autopilot"
-	"github.com/lightningnetwork/lnd/brontide"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/discovery"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing"
+	"github.com/kevinsch95/lightning-onion"
+	"github.com/kevinsch95/lnd/autopilot"
+	"github.com/kevinsch95/lnd/brontide"
+	"github.com/kevinsch95/lnd/channeldb"
+	"github.com/kevinsch95/lnd/discovery"
+	"github.com/kevinsch95/lnd/lnrpc"
+	"github.com/kevinsch95/lnd/lnwire"
+	"github.com/kevinsch95/lnd/routing"
 	"github.com/roasbeef/btcd/blockchain"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
@@ -29,7 +29,7 @@ import (
 	"github.com/roasbeef/btcutil"
 
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/htlcswitch"
+	"github.com/kevinsch95/lnd/htlcswitch"
 )
 
 var (

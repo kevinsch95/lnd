@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"github.com/boltdb/bolt"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/kevinsch95/lnd/lnwire"
+	"github.com/kevinsch95/lnd/shachain"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcd/wire"

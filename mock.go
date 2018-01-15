@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/kevinsch95/lnd/chainntnfs"
+	"github.com/kevinsch95/lnd/lnwallet"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/chaincfg"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"

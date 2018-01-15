@@ -11,14 +11,14 @@ import (
 	"time"
 
 	"github.com/lightninglabs/neutrino"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/chainntnfs/btcdnotify"
-	"github.com/lightningnetwork/lnd/chainntnfs/neutrinonotify"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/btcwallet"
-	"github.com/lightningnetwork/lnd/routing/chainview"
+	"github.com/kevinsch95/lnd/chainntnfs"
+	"github.com/kevinsch95/lnd/chainntnfs/btcdnotify"
+	"github.com/kevinsch95/lnd/chainntnfs/neutrinonotify"
+	"github.com/kevinsch95/lnd/channeldb"
+	"github.com/kevinsch95/lnd/htlcswitch"
+	"github.com/kevinsch95/lnd/lnwallet"
+	"github.com/kevinsch95/lnd/lnwallet/btcwallet"
+	"github.com/kevinsch95/lnd/routing/chainview"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcd/rpcclient"
 	"github.com/roasbeef/btcutil"
@@ -358,11 +358,17 @@ func newChainControlFromConfig(cfg *config, chanDB *channeldb.DB,
 
 var (
 	// bitcoinGenesis is the genesis hash of Bitcoin's testnet chain.
-	bitcoinGenesis = chainhash.Hash([chainhash.HashSize]byte{
+	/*bitcoinGenesis = chainhash.Hash([chainhash.HashSize]byte{
 		0x43, 0x49, 0x7f, 0xd7, 0xf8, 0x26, 0x95, 0x71,
 		0x08, 0xf4, 0xa3, 0x0f, 0xd9, 0xce, 0xc3, 0xae,
 		0xba, 0x79, 0x97, 0x20, 0x84, 0xe9, 0x0e, 0xad,
 		0x01, 0xea, 0x33, 0x09, 0x00, 0x00, 0x00, 0x00,
+	})*/
+	bitcoinGenesis = chainhash.Hash([chainhash.HashSize]byte{
+		0x6f, 0xe2, 0x8c, 0x0a, 0xb6, 0xf1, 0xb3, 0x72,
+		0xc1, 0xa6, 0xa2, 0x46, 0xae, 0x63, 0xf7, 0x4f,
+		0x93, 0x1e, 0x83, 0x65, 0xe1, 0x5a, 0x08, 0x9c,
+		0x68, 0xd6, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00,
 	})
 
 	// litecoinGenesis is the genesis hash of Litecoin's testnet4 chain.

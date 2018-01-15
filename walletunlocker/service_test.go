@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwallet/btcwallet"
-	"github.com/lightningnetwork/lnd/walletunlocker"
+	"github.com/kevinsch95/lnd/lnrpc"
+	"github.com/kevinsch95/lnd/lnwallet/btcwallet"
+	"github.com/kevinsch95/lnd/walletunlocker"
 	"github.com/roasbeef/btcd/chaincfg"
 	"github.com/roasbeef/btcwallet/wallet"
 	"golang.org/x/net/context"

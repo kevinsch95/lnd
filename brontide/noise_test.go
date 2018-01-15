@@ -9,7 +9,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/kevinsch95/lnd/lnwire"
 	"github.com/roasbeef/btcd/btcec"
 )
 

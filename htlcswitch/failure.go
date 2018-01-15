@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/kevinsch95/lightning-onion"
+	"github.com/kevinsch95/lnd/lnwire"
 	"github.com/roasbeef/btcd/btcec"
 )
 

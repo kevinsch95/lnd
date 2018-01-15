@@ -3,7 +3,7 @@ package chainntnfs_test
 import (
 	"testing"
 
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/kevinsch95/lnd/chainntnfs"
 )
 
 func TestConcurrentQueue(t *testing.T) {

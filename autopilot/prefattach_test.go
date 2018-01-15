@@ -8,8 +8,8 @@ import (
 
 	prand "math/rand"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/kevinsch95/lnd/channeldb"
+	"github.com/kevinsch95/lnd/lnwire"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcutil"
 )

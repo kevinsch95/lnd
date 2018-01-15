@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/kevinsch95/lnd/lnwire"
 )
 
 func makeFakePayment() *OutgoingPayment {

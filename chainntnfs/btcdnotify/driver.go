@@ -3,7 +3,7 @@ package btcdnotify
 import (
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/kevinsch95/lnd/chainntnfs"
 	"github.com/roasbeef/btcd/rpcclient"
 )
 

@@ -11,9 +11,9 @@ import (
 	"crypto/sha256"
 
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/kevinsch95/lnd/chainntnfs"
+	"github.com/kevinsch95/lnd/lnwallet"
+	"github.com/kevinsch95/lnd/lnwire"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcd/wire"
 	"github.com/roasbeef/btcutil"
